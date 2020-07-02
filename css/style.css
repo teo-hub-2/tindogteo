@@ -1,0 +1,144 @@
+/*************************HOLe BOdy**********************/
+
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+/*************************TOP-CONTAINER******************/
+
+.top-container {
+  background: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625em;
+  color: #66bfbf;
+  line-height: 1;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+  text-decoration: none;
+  margin: 10px 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+  color: #eaf6f6;
+  transition: 0.5;
+}
+
+hr {
+  border: dotted #c9cccc 6px;
+  width: 4%;
+  margin: 100px auto;
+  border-bottom: none;
+}
+
+p {
+  line-height: 2;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+/*************************MIDDLE-CONTAINER******************/
+.middle-container {
+  margin: 100px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.me {
+  width: 15%;
+}
+
+.computer-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.chess-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.science-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.intro {
+  width: 29%;
+  margin: auto;
+}
+
+/*************************BOTTOM-CONTAINER******************/
+
+.bottom-container {
+  background: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.contact-me {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 65%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  border-radius: 8px;
+  background: linear-gradient(#11cdd4, #11999e);
+  padding: 10px 20px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
